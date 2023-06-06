@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container-header{
+    max-width: 3000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.containe-header{
+    max-width: 3000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.logo img{
+    width: 400px;
+    border: 100px solid transparent;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav{
+    margin: 0px 20px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.menu nav ul li a{
+    color: #2f7c94 ;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu nav ul li a:hover{
+    color: #101e2c;
+}
+
+.menu .socialmedia{
+    margin: 0px 10px;
+}
+
+.menu .socialmedia a{
+    margin: 0px 10px;
+}
+
+.menu .socialmedia img{
+    width: 20px;
+}
+
+
+.container-cover{
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-color: rgb(183, 226, 252);
+}
+
+.cover{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px 10px;
+}
+
+.text-cover{
+    width: 80%;
+    padding-right: 150px;
+}
+
+.text-cover h1{
+    font-size: 40px;
+    color: #101e2c;
+}
+
+.text-cover p{
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(1, 21, 58);
+}
+
+.btn-text{
+    display: block;
+    width: 100px;
+    margin-top: 40px;
+    padding: 0px 30px;
+    text-align: center;
+    font-weight: 600;
+    color: azure;
+    background: red;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn-text:hover{
+    background: transparent;
+    color: blue;
+    transition: 350ms;
+}
+
+.image-cover{
+    width: 100%;
+}
+
+.image-cover img{
+    width: 400px;
+}
+
+.container-carrer-primary{
+    padding-top: 100px;
+}
+
+.carrer-primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.text-carrer-primary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-carrer-primary p{
+    color: #2f7c94;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-carrer-primary h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #101e2c;
+}
+
+.container-box-carrerprimary{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-carrer-primary{
+    max-width: 500px;
+    padding: 60 px 40px;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 250ms;
+}
+
+.box-carrer-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: rgb(0, 111, 180);
+}
+
+.box-carrer-primary h2{
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box-carrer-primary p{
+    margin-top: 25px;
+}
+
+.col-sm .img-carrer {
+    width: 90%;
+    }
+    
+    .col-sm .col-information,
+    .col-sm .col-img-carrer {
+    padding: 10px 10px;
+    color: white;
+    }
+    .col-sm .img-carrer {
+    padding: 10px;
+    height: 100%;
+    }
+    
+    button{
+      all: unset;
+      padding: 15px 20px;
+      border: 1px solid 92fe9d;
+      border-radius: 8px;
+      color: aliceblue;
+      background: linear-gradient(to bottom, black, blue );
+      font-size: 20px;
+    }
+
+    .col-sm {
+        padding: 20px 10px;
+        }
+        .col-sm .imagenesEstilo {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px rgba(255, 255, 255, 0.25);
+        }
+        .col-sm .col-information,
+        .col-sm .col-img-carrer {
+        padding: 10px 10px;
+        color: white;
+        }
+        .col-sm .img-carrer {
+        padding: 10px;
+        height: 100%;
+        }
+        
+        .col-sm-12 {
+        padding-bottom: 20px;
+        }
+        
+
+@keyframes text-animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes animacion-example {
+    0% {
+      width: 150px;
+      background-color: red;
+    }
+    50% {
+      width: 300px;
+      background-color: white;
+    }
+    100% {
+      width: 150px;
+      background-color: yellow;
+    }
+  }
+
+/*# sourceMappingURL=styles.css.map */
